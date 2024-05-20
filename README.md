@@ -21,7 +21,7 @@ A noter, que pour la création des composants il n'est pas nécessaire de géné
 3. Dans le dossier `app` créer un dossier `datas` et créer un fichier `books.stub.ts` qui contiendra une `const`
 4. Dans le dossier `app` créer un dossier `services` et créer un fichier `book.service.ts`
   - Le décorateur `@Injectable()` permettra d'injecter le service dans les différents composants
-5. Créer un composant via la commande `ng generate component --skip-tests=true --inline-style book-list` qui permettra de générer le composant sans le fichir `.spec.ts` et sans le fichier `scss`
+5. Créer un composant via la commande `ng generate component --skip-tests=true --inline-style book-list` qui permettra de générer le composant sans le fichier `.spec.ts` et sans le fichier `scss`
 6. La question bonus sera traité + en profondeur dans le TP2
 
 ## Bonnes pratiques
