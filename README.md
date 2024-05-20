@@ -1,5 +1,7 @@
 # TP1
 
+**ATTENTION la correction a été faite en Angular 16, il y a donc le fichier `app.module.ts`**
+
 ## Sujet du TP1
 
 1. Création d'une application Angular via la CLI
