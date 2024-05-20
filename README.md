@@ -28,3 +28,4 @@ A noter, que pour la création des composants il n'est pas nécessaire de géné
 
 1. Toujours préciser le type de retour d'une méthod
 2. Ne jamais utiliser le type `any`
+3. Favoriser les interfaces pour les modèls/dto
