@@ -11,7 +11,6 @@ export class BookListComponent {
   books: Book[] = [];
 
   constructor(protected bookService: BookService){
-
   }
 
   ngOnInit(){
