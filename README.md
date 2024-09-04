@@ -32,3 +32,4 @@ A noter, que pour la création des composants il n'est pas nécessaire de géné
 2. Ne jamais utiliser le type `any`
 3. Favoriser les interfaces pour les modèles/dto
 4. Respecter l'arborescence de fichiers
+5. Ne jamais commit ou distribuer le dossier `node_modules`, il faut l'ignorer via le `.gitignore`
