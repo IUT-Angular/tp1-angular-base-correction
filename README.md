@@ -28,6 +28,6 @@ A noter, que pour la création des composants il n'est pas nécessaire de géné
 
 ## Bonnes pratiques
 
-1. Toujours préciser le type de retour d'une méthod
+1. Toujours préciser le type de retour d'une méthode
 2. Ne jamais utiliser le type `any`
-3. Favoriser les interfaces pour les modèls/dto
+3. Favoriser les interfaces pour les modèles/dto
