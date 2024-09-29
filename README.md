@@ -1,4 +1,4 @@
-# TP1 et 2
+# TP1
 
 ## Sujet du TP1
 
