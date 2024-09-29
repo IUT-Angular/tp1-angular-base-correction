@@ -12,20 +12,5 @@ export class BookService {
 
     getAll(): Book[]{
         return this.books;
-    }    
-
-    addBook(book: Book): void{
-        if(book.id === 0){
-            book.id = Math.max(...this.books.map(b => b.id)) + 1;
-        }
-
-        this.books.push(book);
-    }
-
-    getBook(id: number): Book | undefined{
-      const book = this.books.find(b => b.id == id);
-      console.log('Fetching book with ID:', id);
-      
-      return book;
     }
 }
