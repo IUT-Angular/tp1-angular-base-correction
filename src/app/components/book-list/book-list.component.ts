@@ -4,6 +4,8 @@ import { BookService } from 'src/app/services/book.service';
 
 @Component({
   selector: 'app-book-list',
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './book-list.component.html',
   providers: [BookService]
 })
