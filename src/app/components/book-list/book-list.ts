@@ -8,8 +8,11 @@ import { Book } from '../../models/book';
   templateUrl: './book-list.html'
 })
 export class BookList {
-    books: Book[] = [];
+    //Toujours typer les variables et préciser la visibilité (private, public, protected)
+    //Dans le cadre d'un tableau, toujours initialiser la variable avec un tableau vide
+    protected books: Book[] = [];
 
+    // Injection de dépendance du service en déclarant une variable de type BookService dans le constructeur et en précisant la visibilité (private, public, protected)
     constructor(private bookService: BookService) {
     }
 
